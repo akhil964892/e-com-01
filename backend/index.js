@@ -11,7 +11,7 @@ const { log } = require("console");
 app.use(express.json());
 app.use(cors(
     {
-        origin:["https://e-com-01.vercel.app"],
+        origin:["https://e-com-01.vercel.app/"],
         methods: ["POST","GET"],
         credentials: true
     }
