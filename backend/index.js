@@ -21,7 +21,6 @@ app.use(cors(
 mongoose.connect("mongodb+srv://akhilsingh:Akhil630@cluster0.loupeam.mongodb.net/e-commerce");
 
 //api creation
-
 app.get("/",(req,res)=>{
     res.send("Express app in Runnning")
 })
